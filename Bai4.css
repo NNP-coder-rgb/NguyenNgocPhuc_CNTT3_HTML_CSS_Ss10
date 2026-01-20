@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #1e1e1e;
+  color: #fcfdfe;
+  display: flex;
+  justify-content: space-between;
+  height: 98px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 27px;
+  padding: 0 40px;
+}
+
+.list-link {
+  display: flex;
+  gap: 0;
+}
+
+.link {
+  color: #fcfdfe;
+  text-decoration: none;
+  padding-right: 40px;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
+
+.main {
+  background-color: #f8f5f0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+  flex: 1;
+}
+
+h1 {
+  padding: 40px 0;
+  font-size: 28px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.box p:first-of-type {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.box p:nth-of-type(2) {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.box a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.box a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.list-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.box-01 {
+  width: 700px;
+  min-height: 85px;
+  background-color: #fff;
+  padding: 20px 30px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box-01 h3,
+.box-01 h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.box-01 p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: #1e1e1e;
+  color: #fcfdfe;
+  text-align: center;
+  padding: 25px;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
